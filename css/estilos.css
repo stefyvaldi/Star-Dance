@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Laila', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/*-----index-----*/
+body{
+    background-color: #F2D7EE;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F2D7EE;
+    width: 100%;
+}
+.logoHeader{
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.menu{
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    padding-right: 25px;      
+}
+.menu li{
+    display: inline-block;
+    
+}
+.menu li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #69306D;
+}
+.menu li a:hover{
+    color: #A5668B;
+}
+/*--------Main Index----------*/
+.mainIndex{
+    margin-top: 5px;
+}
+.sectionDanza{
+    display: flex;
+    align-items: center;
+}
+.sectionDanza img{
+    width: 100%; 
+}
+.danzaModerna{
+    position: absolute;
+    border-radius: 20px;
+    width: 50%;
+    padding: 7px 25px;
+    margin-left: 40px;
+}
+.danzaModerna h1{
+    color: #69306D;
+    font-size: 50px;
+    font-family: 'Laila', sans-serif;
+    font-weight: 600;
+}
+.danzaModerna h2{
+    color: #0E103D;
+}
+.danzaModerna p{
+    color: #0E103D;
+    font-size: 20px;
+}
+.sectionPages{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+}
+.sectionPages h2{
+    color: #69306D;
+    font-weight: bolder ;
+}
+.sectionPages p{
+    color: #0E103D;
+}
+.sectionPages h4{
+    color: #A5668B;
+}
+.nosotrosIndex{
+    width: 525px;
+}
+.nosotrosIndex img{
+    width: 100%;
+    border-radius: 10px; 
+}
+.boton{
+    text-decoration: none;
+    color: #A5668B;
+}
+.boton:hover{
+    color: #69306D;
+}
+.ritmosIndex{
+    width: 525px;
+}
+.ritmosIndex img{
+    width: 100%;
+    border-radius: 10px; 
+}
+/*---------Footer----------*/
+.footer{
+    background-color: #0E103D;
+    display: flex;
+    padding: 5px;
+    width: 100%; 
+    justify-content: space-between;
+    align-items: center; 
+}
+.imagenFooter img{
+    width: 65px; 
+}
+.footer p{
+    color: #F2D7EE;
+    font-size: 15px;
+    margin: 5px;
+}
+.redes{
+    margin: 5px;
+    display: flex;
+}
+.redes a{
+    color: #F2D7EE;
+    font-size: 25px;
+    padding-right: 15px;
+    transition: transform 0.8s;
+}
+.redes a :hover{
+    color: #A5668B;
+    transform: scale(1.3);
+}
+/*----------Pages NOSOTROS-----------*/
+.mainNosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionPasion{
+    width: 100%;  
+}
+.sectionPasion h1{
+    font-size: 40px;
+    font-family: 'Laila';
+    background-color: #69306D;
+    color: #F2D7EE;
+    text-align: center;
+    font-weight: bolder;
+}
+.sectionArticle{
+    display: flex;
+    margin: 40px 120px 40px 170px;
+    background-color: rgba(165, 102, 139, 0.2);
+    border-radius: 10px;
+}
+.sectionArticle img{
+    width: 50%;
+    border-radius: 10px;
+}
+.articleHistoria{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.articleHistoria h2{
+    font-size: 30px;
+    color: #69306D;
+    font-weight: bold;
+}
+.articleClases{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+}
+.articleClases h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #A5668B;
+}
+.articleClases img{
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+}
+.estructura{
+    display: flex;
+    background-color: rgba(211, 188, 192, 0.3);
+    border-radius: 10px;
+    width: 70%;
+    margin: 15px;
+}
+.estructuraClase{
+    margin: 30px;
+    width: 50%;
+}
+.estructuraClase h4{
+    color: #A5668B;
+    font-size: 20px;
+}
+.estructuraClase p{
+    padding-top: 10px;
+}
+.imagenesNosotros{
+    margin: 20px;
+    width: 50%;
+}
+.imagenesNosotros img{
+    width: 100%;
+    border-radius: 10px;
+}
+/*----------Pages CONTACTO-----------*/
+.contenedorTotal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedorContacto{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(211, 188, 192, 0.2);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+}
+.contenedorContacto img{
+    width: 355px;
+    margin: 10px;
+}
+.tituloContacto{
+    background-color: #69306D;
+    position: relative;
+    width: 100%;
+}
+.tituloContacto h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Laila';
+    font-weight: bolder;
+    color: #F2D7EE;
+}
+.formContacto{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+    background-color: rgba(242, 215, 238, 0.4);
+    padding: 25px;
+}
+.formContacto input{
+    border: solid 1px #A5668B;
+    background-color: rgba(243, 237, 238, 0.4);
+    border-radius: 5px;
+    width: 350px;
+    font-size: 15px;
+    padding: 8px;
+    height: 40px;
+}
+.formContacto .botonEnviar input{
+    width: 150px;
+    background-color: #A5668B;
+    font-weight: bold;
+    font-size: 17px;
+    color: #F2D7EE;
+    margin-top: 10px;
+}
+.formContacto .botonConsulta input{
+    height: 100px;
+}
+.botonEnviar input:hover{
+    background-color: #69306D;
+}
+/*----------Pages RITMOS-----------*/
+.mainRitmos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tituloRitmos{
+    background-color: #69306D;
+    width: 100%;
+}
+.tituloRitmos h1{
+    font-weight: bolder;
+    font-family: 'Laila';
+    font-size: 40px;
+    text-align: center;
+    color: #F2D7EE;
+}
+.contenedorRitmos{
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.ritmoReggaeton{
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ritmoReggaeton img{
+    width: 350px;
+    border-radius: 10px;
+}
+.ritmoReggaeton h2{
+    position: absolute;
+    background-color: rgba(243, 237, 238, 0.4);
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.ritmoReggaeton h2:hover{
+    background-color: #69306D;
+    color: #F2D7EE;
+}
+.ritmoUrbano{
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ritmoUrbano img{
+    width: 350px;
+    border-radius: 10px;
+}
+.ritmoUrbano h2{
+    position: absolute;
+    background-color: rgba(243, 237, 238, 0.4);
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.ritmoUrbano h2:hover{
+    background-color: #69306D;
+    color: #F2D7EE;
+}
+.ritmoBachata{
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ritmoBachata img{
+    width: 350px;
+    border-radius: 10px; 
+}
+.ritmoBachata h2{
+    position: absolute;
+    background-color: rgba(243, 237, 238, 0.4);
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.ritmoBachata h2:hover{
+    background-color: #69306D;
+    color: #F2D7EE;
+}
+.ritmoJazz{
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ritmoJazz img{
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+}
+.ritmoJazz h2{
+    position: absolute;
+    background-color: rgba(243, 237, 238, 0.4);
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.ritmoJazz h2:hover{
+    background-color: #69306D;
+    color: #F2D7EE;
+}
+.ritmoBallet{
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ritmoBallet img{
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+}
+.ritmoBallet h2{
+    position: absolute;
+    background-color: rgba(243, 237, 238, 0.4);
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.ritmoBallet h2:hover{
+    background-color: #69306D;
+    color: #F2D7EE;
+}
+.ritmoContempo{
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ritmoContempo img{
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+}
+.ritmoContempo h2{
+    position: absolute;
+    background-color: rgba(243, 237, 238, 0.4);
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.ritmoContempo h2:hover{
+    background-color: #69306D;
+    color: #F2D7EE;
+}
+.contRitmos{
+    display: flex;
+    margin: 20px;
+}
+.conteRitmos{
+    display: flex;
+    margin: 20px;
+}
+/*----------Pages GALERIA-----------*/
+.tituloGaleria{
+    background-color: #69306D;
+    width: 100%;
+}
+.tituloGaleria h1{
+    font-family: 'Laila';
+    color: #F2D7EE;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px 250px;
+    gap: 14px 14px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "galeria1 galeria2 galeria3 galeria4"
+      "galeria5 galeria6 galeria7 galeria8"
+      "galeria9 galeria10 galeria11 galeria12"
+      "video1 video1 video2 video2";
+      margin: 20px;
+}
+.galeria1 { 
+    grid-area: galeria1; 
+}
+.galeria2 {
+    grid-area: galeria2; 
+}
+.galeria3 {
+    grid-area: galeria3; 
+} 
+.galeria4 { 
+    grid-area: galeria4; 
+} 
+.galeria5 { 
+    grid-area: galeria5; 
+} 
+.galeria6 { 
+    grid-area: galeria6; 
+} 
+.galeria7 { 
+    grid-area: galeria7; 
+}
+.galeria8 { 
+    grid-area: galeria8; 
+}
+.galeria9 { 
+    grid-area: galeria9; 
+}
+.galeria10 { 
+    grid-area: galeria10; 
+}
+.galeria11 { 
+    grid-area: galeria11; 
+}
+.galeria12 { 
+    grid-area: galeria12; 
+}
+.video1 { 
+    grid-area: video1; 
+}
+.video2 { 
+    grid-area: video2; 
+}
+.container .imagen{
+    width: 100%;
+    height: 100%;
+}
+.container .imagen img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+.container .videos{
+    width: 100%;
+    height: 100%;
+    position: relative;
+} 
+.container .videos iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+} 
+/*----------MEDIA QUERIES-----------*/
+/*Tamaño mediano*/
+@media (max-width: 768px) {
+    /*---------MEDIA QUERIES - Header---------*/
+    .logoHeader{
+        width: 90px;
+    }
+    .menu{
+        font-size: 18px;
+        display: none;
+    }
+    /*---------MEDIA QUERIES - Galeria---------*/
+    .tituloGaleria h1{
+        font-size: 30px;
+    }
+    .container{ 
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    }  
+}
+/*----------MEDIA QUERIES-----------*/
+/*Tamaño chico*/
+@media (max-width: 500px) {
+    /*---------MEDIA QUERIES - Header---------*/
+    .menu{
+        overflow: hidden;
+        display: none;
+    }
+    /*---------MEDIA QUERIES - Footer---------*/
+    .footer{
+        flex-direction: column;
+    }
+    .redes{
+        margin: 0px;
+    }
+    /*---------MEDIA QUERIES - Galeria---------*/
+    .container{ 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 160px;
+        gap: 7px 7px;
+    }
+    
+    
+}        
+    
+
+
