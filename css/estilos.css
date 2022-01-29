@@ -7,13 +7,12 @@
 }
 /*-----index-----*/
 body{
-    background-color: #F2D7EE;
+    background-color: #f7eff6;
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #F2D7EE;
     width: 100%;
 }
 .logoHeader{
@@ -36,6 +35,10 @@ body{
     padding: 15px;
     color: #69306D;
 }
+.menu .active{
+    color: #A5668B;
+    font-weight: bold;
+}
 .menu li a:hover{
     color: #A5668B;
 }
@@ -43,12 +46,12 @@ body{
 .mainIndex{
     margin-top: 5px;
 }
+.carousel-control-prev {
+    left: -65px;
+}
 .sectionDanza{
     display: flex;
     align-items: center;
-}
-.sectionDanza img{
-    width: 100%; 
 }
 .danzaModerna{
     position: absolute;
@@ -56,6 +59,7 @@ body{
     width: 50%;
     padding: 7px 25px;
     margin-left: 40px;
+    z-index: 1000;
 }
 .danzaModerna h1{
     color: #69306D;
@@ -65,6 +69,7 @@ body{
 }
 .danzaModerna h2{
     color: #0E103D;
+    font-weight: bolder;
 }
 .danzaModerna p{
     color: #0E103D;
@@ -75,11 +80,12 @@ body{
     margin: 30px;
     justify-content: space-around;
 }
-.sectionPages h2{
+.ritmosIndex h2{
     color: #69306D;
-    font-weight: bolder ;
+    font-weight: bolder;
+    font-size: 1.8em;
 }
-.sectionPages p{
+.ritmosIndex p{
     color: #0E103D;
 }
 .sectionPages h4{
@@ -92,6 +98,14 @@ body{
 .nosotrosIndex img{
     width: 100%;
     border-radius: 10px; 
+}
+.nosotrosIndex h2{
+    color: #69306D;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+.nosotrosIndex p{
+    color: #0E103D;
 }
 .boton{
     text-decoration: none;
@@ -537,7 +551,7 @@ body{
 .container {  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 250px 250px 250px 250px;
+    grid-template-rows: repeat(4,160px);
     gap: 14px 14px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -651,10 +665,25 @@ body{
     .tituloGaleria h1{
         font-size: 30px;
     }
-    .container{ 
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    }
+    .container{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(6,150px);
+        gap: 7px 7px;
+        grid-template-areas:
+
+        "galeria1 galeria2 galeria3"
+
+        "galeria4 galeria5 galeria6"
+
+        "galeria7 galeria8 galeria9" 
+
+        "galeria10 galeria11 galeria12"
+
+        "video1 video1 video1"
+
+        "video2 video2 video2";
+    } 
+   
     /*---------MEDIA QUERIES - Ritmos---------*/
     .tituloRitmos h1{
         font-size: 30px;
@@ -715,8 +744,25 @@ body{
     /*---------MEDIA QUERIES - Galeria---------*/
     .container{ 
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 160px;
+        grid-template-rows: repeat(8,125px);
         gap: 7px 7px;
+        grid-template-areas:
+
+        "galeria1 galeria2"
+
+        "galeria3 galeria4"
+
+        "galeria5 galeria6"
+
+        "galeria7 galeria8" 
+
+        "galeria9 galeria10"
+
+        "galeria11 galeria12"
+
+        "video1 video1"
+
+        "video2 video2";
     }
     
     
