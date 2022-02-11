@@ -1,0 +1,183 @@
+/*----------Pages RITMOS-----------*/
+.mainRitmos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+    .tituloRitmos{
+        background-color: #69306D;
+        width: 100%;
+        h1{
+            @include titulo-pages();
+        }
+        img{
+            width: 100%;
+        }  
+    }
+    .contRitmos{
+        display: flex;
+        margin: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        .ritmoReggaeton{
+            @include contenedor-ritmo();
+            &:hover{
+                transform: scale(0.9) translate(5px, 5px);
+            }
+            img{
+                @include img-ritmo();
+                &:hover{
+                    filter: contrast(100%) brightness(60%);
+                }
+            }
+            h3{
+                @include texto-ritmo();
+                &:hover{
+                    background-color: #F2D7EE;
+                    color: #69306D;
+                    font-weight: bolder;
+                }
+            }    
+        }
+        .ritmoJazz{
+            @include contenedor-ritmo();
+            &:hover{
+                transform: scale(0.9) translate(5px, 5px);
+            }
+            img{
+                @include img-ritmo();
+                &:hover{
+                    filter: contrast(100%) brightness(60%);
+                }
+            }
+            h3{
+                @include texto-ritmo();
+                &:hover{
+                    background-color: #F2D7EE;
+                    color: #69306D;
+                    font-weight: bolder;
+                }
+            }    
+        }
+        .ritmoUrbano{
+            @include contenedor-ritmo();
+            &:hover{
+                transform: scale(0.9) translate(5px, 5px);
+            }
+            img{
+                @include img-ritmo();
+                &:hover{
+                    filter: contrast(100%) brightness(60%);
+                }
+            }
+            h3{
+                @include texto-ritmo();
+                &:hover{
+                    background-color: #F2D7EE;
+                    color: #69306D;
+                    font-weight: bolder;
+                }
+            }    
+        }
+        .ritmoBallet{
+            @include contenedor-ritmo();
+            &:hover{
+                transform: scale(0.9) translate(5px, 5px);
+            }
+            img{
+                @include img-ritmo();
+                &:hover{
+                    filter: contrast(100%) brightness(60%);
+                }
+            }
+            h3{
+                @include texto-ritmo();
+                &:hover{
+                    background-color: #F2D7EE;
+                    color: #69306D;
+                    font-weight: bolder;
+                }
+            }    
+        }
+        .ritmoContempo{
+            @include contenedor-ritmo();
+            &:hover{
+                transform: scale(0.9) translate(5px, 5px);
+            }
+            img{
+                @include img-ritmo();
+                &:hover{
+                    filter: contrast(100%) brightness(60%);
+                }
+            }
+            h3{
+                @include texto-ritmo();
+                &:hover{
+                    background-color: #F2D7EE;
+                    color: #69306D;
+                    font-weight: bolder;
+                }
+            }    
+        }
+        .ritmoBachata{
+            @include contenedor-ritmo();
+            &:hover{
+                transform: scale(0.9) translate(5px, 5px);
+            }
+            img{
+                @include img-ritmo();
+                &:hover{
+                    filter: contrast(100%) brightness(60%);
+                }
+            }
+            h3{
+                @include texto-ritmo();
+                &:hover{
+                    background-color: #F2D7EE;
+                    color: #69306D;
+                    font-weight: bolder;
+                }
+            }    
+        }
+        .ritmoSalsa{
+            @include contenedor-ritmo();
+            &:hover{
+                transform: scale(0.9) translate(5px, 5px);
+            }
+            img{
+                @include img-ritmo();
+                &:hover{
+                    filter: contrast(100%) brightness(60%);
+                }
+            }
+            h3{
+                @include texto-ritmo();
+                &:hover{
+                    background-color: #F2D7EE;
+                    color: #69306D;
+                    font-weight: bolder;
+                }
+            }    
+        }
+        .ritmoTango{
+            @include contenedor-ritmo();
+            &:hover{
+                transform: scale(0.9) translate(5px, 5px);
+            }
+            img{
+                @include img-ritmo();
+                &:hover{
+                    filter: contrast(100%) brightness(60%);
+                }
+            }
+            h3{
+                @include texto-ritmo();
+                &:hover{
+                    background-color: #F2D7EE;
+                    color: #69306D;
+                    font-weight: bolder;
+                }
+            }    
+        }
+    }
+}

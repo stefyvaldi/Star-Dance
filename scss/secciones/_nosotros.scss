@@ -1,0 +1,92 @@
+/*----------Pages NOSOTROS-----------*/
+.mainNosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 120px;
+
+    .sectionPasion{
+        width: 100%;
+        background-color: #69306D;
+        h1{
+            @include titulo-pages ();
+        }
+        img{
+            width: 100%;
+        }  
+    }
+    .sectionArticle{
+        display: flex;
+        width: 80%;
+        background-color: rgba(165, 102, 139, 0.2);
+        border-radius: 10px;
+        align-items: center;
+        margin: 35px;
+        img{
+            width: 50%;
+            border-radius: 10px;
+        }
+        .articleHistoria{
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            h2{
+                font-size: $maxsubtitulos;
+                color: #69306D;
+                font-weight: bold;
+            }
+        }
+
+    }
+    .articleClases{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        align-items: center;
+        h3{
+            font-size: $minsubtitulos;
+            font-weight: bold;
+            color: #69306D;
+        }
+        img{
+            width: 100%;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    }
+    .estructura{
+        display: flex;
+        background-color: rgba(165, 102, 139, 0.2);
+        border-radius: 10px;
+        width: 70%;
+        margin: 15px;
+        .estructuraClase{
+            margin: 30px;
+            width: 50%;
+            h4{
+                color: #A5668B;
+                font-size: $minsubtitulos;
+            }
+            li{
+                font-size: $textoparrafo;
+            }
+            span{
+                font-weight: bold;
+            }
+        }
+        .imagenesNosotros{
+            margin: 20px;
+            width: 50%;
+            img{
+                width: 100%;
+                margin-top: 10px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+
+
+

@@ -1,0 +1,23 @@
+1. Incorpore etiquetas meta keywords:
+- Index: escuela, danza, baile, ritmo, nosotros, moderno, almagro.
+- Nosotros: historia, nosotros, clases, actividades, estructura, tecnicas.
+- Ritmos: ritmos, danza, reggaeton, jazz, urbano, ballet, tango, salsa, contemporaneo, bachata.
+- Galeria: galeria, escenario, baile, fotos, videos, presentaciones.
+- Contacto: contacto, ubicacion, consulta, telefono, almagro.
+
+2. Incorpore etiquetas meta description:
+- Index: Start Dance es una escuela de baile y danza moderna innovadora unica en el barrio de Almagro.
+- Nosotros: Conoce nuestra historia y el increíble equipo de bailarines y profesionales que imparten clases a diario con nosotros.
+- Ritmos: Acercamiento a los diferentes ritmos modernos como el reggaeton, urbano, jazz, ballet, salsa, etc.
+- Galeria: Galeria de imágenes de las muestras de fin de año de nuestros alumnos.
+- Contacto: Nos pondremos en contacto y te asesoraremos en lo que necesites. Whatsapp, teléfono, email..¡Pero ven a bailar!
+
+3. Modifique y agregué algunos textos ALT:
+En todas las paginas: logo de baile
+- Ritmos: chicos bailando
+- Galeria: pies de chicas bailando ballet
+- Contacto: chicos conectados
+- Nosotros: chicas bailando, grupo de chicas bailando, chica haciendo elongacion, chicas haciendo estiramiento
+
+4.- Todas mis paginas tienen h1 y en algunas tienen h2, h3 y h4.
+  - Modifique en la pagina ritmos mis h2(ya que tenia varios) por h3.

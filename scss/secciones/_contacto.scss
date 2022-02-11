@@ -1,0 +1,97 @@
+/*----------Pages CONTACTO-----------*/
+.contenedorTotal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    width: 100%;
+    .tituloContacto{
+        background-color: #69306D;
+        width: 100%;
+        h1{
+            @include titulo-pages()
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .contenedorContacto{
+        width: 90vw;
+        display: flex;
+        background-color: rgba(165, 102, 139, 0.2);
+        margin: 30px;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+        .textoContacto{
+            padding: 10px;
+            width: 100%;
+            .datos{
+                display: flex;
+                align-items: baseline;
+                flex-direction: column;
+                i{
+                    color: #69306D;
+                }
+            }
+        }
+        .formContacto{
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            margin: 15px;
+            width: 90%;
+            box-shadow: 4px 10px 20px 0px rgba(28, 2, 27, 0.9) ;
+            background-color: rgba(245, 225, 242, 0.8);
+            padding: 25px;
+            label{
+                text-align: initial;
+                margin: 5px;
+            }
+            input{
+                border: solid 1px #A5668B;
+                background-color: rgba(243, 237, 238, 0.4);
+                border-radius: 5px;
+                width: 100%;
+                font-size: 15px;
+                padding: 8px;
+            }
+            .botonConsulta{
+                width: 100%;
+                input{
+                    height: 100px;
+                    width: 100%;
+                }
+            }
+            .botonEnviar{
+                width: 30%;
+                margin-top: 10px;
+                border-radius: 10px;
+                input{
+                    font-size: $minsubtitulos;
+                    background-color: #A5668B;
+                    color: #f7eff6;
+                    letter-spacing: 0.2rem;
+                    &:hover{
+                        background-color: #69306D;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

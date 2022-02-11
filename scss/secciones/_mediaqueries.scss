@@ -1,0 +1,222 @@
+/*----------MEDIA QUERIES-----------*/
+/*Tamaño mediano*/
+@media (max-width: 768px) {
+    /*---------MEDIA QUERIES - Nosotros---------*/
+    .sectionArticle{
+        width: 90%;
+    }
+    .sectionPasion h1{
+        font-size: 1.8em;
+    }
+    .articleHistoria h2{
+        font-size: 1.5em;
+    }
+    .articleHistoria p{
+        font-size: 0.7em;
+    }
+    .articleClases h3{
+        font-size: 1.3em;
+    }
+    .articleClases p{
+        font-size: 0.7em;
+    }
+    .estructura{
+        width: 80%;
+    }
+    .estructuraClase li{
+        font-size: 0.7em;
+    }
+    .estructuraClase h4{
+        font-size: 1em;
+    }
+    /*---------MEDIA QUERIES - Main Index---------*/
+    .sectionDanza{
+        justify-content: center;
+    }
+    .danzaModerna{
+        width: 80%;
+        margin-left: 0px;
+        background-color: rgba(242, 215, 238, 0.4);
+        padding: 15px;
+    }
+    .danzaModerna h1{
+        font-size: 1.5em;
+    }
+    .danzaModerna p{
+        font-size: 0.8em;
+    }
+    .danzaModerna h2{
+        font-size: 1em;
+    }
+    .carousel-control-prev {
+        left: 0px;
+    }
+    .sectionPages{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nosotrosIndex{
+        width: 100%;
+    }
+    .nosotrosIndex h2{
+        font-size: 1.4em;
+    }
+    .ritmosIndex h2{
+        font-size: 1.4em;
+    }
+    .ritmosIndex{
+        width: 100%;
+    }
+    /*---------MEDIA QUERIES - Galeria---------*/
+    .tituloGaleria h1{
+        font-size: 30px;
+    }
+    .container{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(6,150px);
+        gap: 7px 7px;
+        grid-template-areas:
+
+        "galeria1 galeria2 galeria3"
+
+        "galeria4 galeria5 galeria6"
+
+        "galeria7 galeria8 galeria9" 
+
+        "galeria10 galeria11 galeria12"
+
+        "video1 video1 video1"
+
+        "video2 video2 video2";
+    } 
+   
+    /*---------MEDIA QUERIES - Ritmos---------*/
+    .tituloRitmos h1{
+        font-size: 30px;
+    }
+    .contRitmos{
+        flex-wrap: wrap; 
+    } 
+    .conteRitmos{
+        flex-wrap: wrap;
+    }
+   
+    /*---------MEDIA QUERIES - Contacto---------*/
+    .contenedorContacto{
+        flex-direction: column;
+    }
+    .formContacto{
+        align-items: center;
+    }
+    .formContacto input{
+        text-align: center;
+    }
+}
+/*----------MEDIA QUERIES-----------*/
+/*Tamaño chico*/
+@media (max-width: 500px) {
+    /*---------MEDIA QUERIES - Header---------*/
+    .logoHeader {
+        width: 60px;
+    }
+    /*---------MEDIA QUERIES - Main Index---------*/
+    .danzaModerna{
+        width: 90%;
+        background-color: rgba(242, 215, 238, 0.4);
+        padding: 20px;
+    }
+    .danzaModerna h2{
+        font-size: 1em;
+    }
+    .danzaModerna h1{
+        font-size: 1.7em;
+    }
+    .danzaModerna p{
+        font-size: 0.8em;
+    }
+    .nosotrosIndex p{
+        font-size: 0.8em;
+    }
+    .nosotrosIndex h2{
+        font-size: 1.2em;
+    }
+    .ritmosIndex h2{
+        font-size: 1.2em;
+    }
+    .ritmosIndex p{
+        font-size: 0.8em;
+    }
+    .boton{
+        font-size: 0.8em;
+    }
+    /*---------MEDIA QUERIES - Footer---------*/
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .redes{
+        margin: 0px;
+    }
+    /*---------MEDIA QUERIES - Nosotros---------*/
+    .sectionArticle {
+        flex-direction: column;
+    }
+    .sectionArticle img{
+        width: 100%;
+    }
+    .articleHistoria h2 {
+        font-size: 1.3em;
+    }
+    .estructura{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .estructuraClase{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .imagenesNosotros{
+        width: 80%;
+    }
+    .imagenesNosotros img{
+        width: 100%;
+    }
+    .articleClases{
+        width: 80%;
+    }
+    /*---------MEDIA QUERIES - Ritmos---------*/
+    .tituloRitmos h1{
+        font-size: 25px;
+    }
+    .contenedorRitmos{
+        margin: 0 auto;  
+    } 
+    /*---------MEDIA QUERIES - Galeria---------*/
+    .container{ 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(8,125px);
+        gap: 7px 7px;
+        grid-template-areas:
+
+        "galeria1 galeria2"
+
+        "galeria3 galeria4"
+
+        "galeria5 galeria6"
+
+        "galeria7 galeria8" 
+
+        "galeria9 galeria10"
+
+        "galeria11 galeria12"
+
+        "video1 video1"
+
+        "video2 video2";
+    }
+    /*---------MEDIA QUERIES - Contacto---------*/
+    .contenedorContacto{
+        align-items: center;
+    }
+    
+}
