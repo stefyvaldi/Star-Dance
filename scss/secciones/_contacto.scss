@@ -33,6 +33,9 @@
                 i{
                     color: #69306D;
                 }
+                p{
+                    color: #260329;
+                }
             }
         }
         .formContacto{
@@ -47,13 +50,14 @@
             label{
                 text-align: initial;
                 margin: 5px;
+                color: #260329;
             }
             input{
                 border: solid 1px #A5668B;
                 background-color: rgba(243, 237, 238, 0.4);
                 border-radius: 5px;
                 width: 100%;
-                font-size: 15px;
+                font-size: $textoparrafo;
                 padding: 8px;
             }
             .botonConsulta{
@@ -61,17 +65,18 @@
                 input{
                     height: 100px;
                     width: 100%;
+                    color: #260329;
                 }
             }
             .botonEnviar{
-                width: 30%;
+                width: 150px;
                 margin-top: 10px;
                 border-radius: 10px;
                 input{
-                    font-size: $minsubtitulos;
+                    font-size: $textotitulo;
                     background-color: #A5668B;
                     color: #f7eff6;
-                    letter-spacing: 0.2rem;
+                    letter-spacing: 0.1rem;
                     &:hover{
                         background-color: #69306D;
                         font-weight: bold;

@@ -15,25 +15,23 @@
     margin-top: 100px; }
     .mainIndex .sectionDanza .danzaModerna {
       position: absolute;
-      border-radius: 20px;
-      width: 50%;
+      border-radius: 10px;
+      width: 55%;
       padding: 7px 25px;
       margin-left: 40px;
       z-index: 1000; }
       .mainIndex .sectionDanza .danzaModerna h2 {
         color: #260329;
-        font-weight: bold;
+        font-weight: bolder;
         font-size: 1.8rem; }
       .mainIndex .sectionDanza .danzaModerna h1 {
         color: #69306D;
-        font-size: 2.8rem;
+        font-size: 2.9rem;
         font-family: 'Laila', sans-serif; }
       .mainIndex .sectionDanza .danzaModerna p {
         color: #260329;
         font-size: 20px;
         margin-bottom: 0px; }
-    .mainIndex .sectionDanza .carousel-control-prev {
-      left: -65px; }
   .mainIndex .sectionPages {
     display: flex;
     margin: 30px;
@@ -45,7 +43,7 @@
         width: 100%;
         border-radius: 10px;
         box-shadow: 4px 10px 20px 0px rgba(28, 2, 27, 0.9); }
-      .mainIndex .sectionPages .nosotrosIndex h2 {
+      .mainIndex .sectionPages .nosotrosIndex h3 {
         color: #69306D;
         font-weight: bold;
         font-size: 1.8rem;
@@ -68,7 +66,7 @@
         width: 100%;
         border-radius: 10px;
         box-shadow: 4px 10px 20px 0px rgba(28, 2, 27, 0.9); }
-      .mainIndex .sectionPages .ritmosIndex h2 {
+      .mainIndex .sectionPages .ritmosIndex h3 {
         color: #69306D;
         font-weight: bold;
         font-size: 1.8rem;
@@ -100,18 +98,20 @@
       font-family: 'Laila';
       font-size: 2.3rem;
       text-align: center;
+      padding: 5px;
+      margin-bottom: 0px;
       color: #F2D7EE; }
     .mainNosotros .sectionPasion img {
       width: 100%; }
   .mainNosotros .sectionArticle {
     display: flex;
-    width: 80%;
     background-color: rgba(165, 102, 139, 0.2);
     border-radius: 10px;
-    align-items: center;
-    margin: 35px; }
+    width: 85%;
+    margin: 25px; }
     .mainNosotros .sectionArticle img {
       width: 50%;
+      object-fit: cover;
       border-radius: 10px; }
     .mainNosotros .sectionArticle .articleHistoria {
       margin: 20px;
@@ -124,7 +124,7 @@
   .mainNosotros .articleClases {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 75%;
     align-items: center; }
     .mainNosotros .articleClases h3 {
       font-size: 1.3rem;
@@ -138,24 +138,25 @@
     display: flex;
     background-color: rgba(165, 102, 139, 0.2);
     border-radius: 10px;
-    width: 70%;
-    margin: 15px; }
+    flex-direction: column-reverse;
+    margin: 45px; }
     .mainNosotros .estructura .estructuraClase {
-      margin: 30px;
-      width: 50%; }
+      margin: 25px; }
       .mainNosotros .estructura .estructuraClase h4 {
         color: #A5668B;
-        font-size: 1.3rem; }
+        font-size: 1.3rem;
+        font-weight: bold; }
       .mainNosotros .estructura .estructuraClase li {
         font-size: 1rem; }
       .mainNosotros .estructura .estructuraClase span {
         font-weight: bold; }
     .mainNosotros .estructura .imagenesNosotros {
-      margin: 20px;
-      width: 50%; }
+      width: 100%;
+      display: flex;
+      padding-top: 20px;
+      justify-content: space-evenly; }
       .mainNosotros .estructura .imagenesNosotros img {
-        width: 100%;
-        margin-top: 10px;
+        width: 45%;
         border-radius: 10px; }
 
 /*----------Pages RITMOS-----------*/
@@ -172,6 +173,8 @@
       font-family: 'Laila';
       font-size: 2.3rem;
       text-align: center;
+      padding: 5px;
+      margin-bottom: 0px;
       color: #F2D7EE; }
     .mainRitmos .tituloRitmos img {
       width: 100%; }
@@ -448,58 +451,65 @@
       font-family: 'Laila';
       font-size: 2.3rem;
       text-align: center;
+      padding: 5px;
+      margin-bottom: 0px;
       color: #F2D7EE; }
     .mainGaleria .tituloGaleria img {
       width: 100%; }
-  .mainGaleria .container {
+  .mainGaleria .containerr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(4, 190px);
     gap: 14px 14px;
     grid-auto-flow: row;
     grid-template-areas: "galeria1 galeria2 galeria3 galeria4" "galeria5 galeria6 galeria7 galeria8" "galeria9 galeria10 galeria11 galeria12" "video1 video1 video2 video2";
-    margin: 0 auto;
+    margin: 30px;
     margin-top: 50px;
     margin-bottom: 50px; }
-    .mainGaleria .container .galeria1 {
+    .mainGaleria .containerr .galeria1 {
       grid-area: galeria1; }
-    .mainGaleria .container .galeria2 {
+    .mainGaleria .containerr .galeria2 {
       grid-area: galeria2; }
-    .mainGaleria .container .galeria3 {
+    .mainGaleria .containerr .galeria3 {
       grid-area: galeria3; }
-    .mainGaleria .container .galeria4 {
+    .mainGaleria .containerr .galeria4 {
       grid-area: galeria4; }
-    .mainGaleria .container .galeria5 {
+    .mainGaleria .containerr .galeria5 {
       grid-area: galeria5; }
-    .mainGaleria .container .galeria6 {
+    .mainGaleria .containerr .galeria6 {
       grid-area: galeria6; }
-    .mainGaleria .container .galeria7 {
+    .mainGaleria .containerr .galeria7 {
       grid-area: galeria7; }
-    .mainGaleria .container .galeria8 {
+    .mainGaleria .containerr .galeria8 {
       grid-area: galeria8; }
-    .mainGaleria .container .galeria9 {
+    .mainGaleria .containerr .galeria9 {
       grid-area: galeria9; }
-    .mainGaleria .container .galeria10 {
+    .mainGaleria .containerr .galeria10 {
       grid-area: galeria10; }
-    .mainGaleria .container .galeria11 {
+    .mainGaleria .containerr .galeria11 {
       grid-area: galeria11; }
-    .mainGaleria .container .galeria12 {
+    .mainGaleria .containerr .galeria12 {
       grid-area: galeria12; }
-    .mainGaleria .container .video1 {
+    .mainGaleria .containerr .video1 {
       grid-area: video1; }
-    .mainGaleria .container .video2 {
+    .mainGaleria .containerr .video2 {
       grid-area: video2; }
-    .mainGaleria .container .imagen {
+    .mainGaleria .containerr .imagen {
       width: 100%;
       height: 100%; }
-      .mainGaleria .container .imagen img {
+      .mainGaleria .containerr .imagen img {
         width: 100%;
         height: 100%;
-        border-radius: 10px; }
-    .mainGaleria .container .videos {
+        border-radius: 10px;
+        transition: transform 0.8s;
+        object-fit: cover; }
+        .mainGaleria .containerr .imagen img:hover {
+          filter: contrast(100%) brightness(50%);
+          transform: scale(0.95); }
+    .mainGaleria .containerr .videos {
       width: 100%;
       height: 100%; }
-      .mainGaleria .container .videos iframe {
+      .mainGaleria .containerr .videos iframe {
         width: 100%;
         height: 100%;
         border-radius: 10px; }
@@ -519,6 +529,8 @@
       font-family: 'Laila';
       font-size: 2.3rem;
       text-align: center;
+      padding: 5px;
+      margin-bottom: 0px;
       color: #F2D7EE; }
     .contenedorTotal .tituloContacto img {
       width: 100%; }
@@ -539,6 +551,8 @@
         flex-direction: column; }
         .contenedorTotal .contenedorContacto .textoContacto .datos i {
           color: #69306D; }
+        .contenedorTotal .contenedorContacto .textoContacto .datos p {
+          color: #260329; }
     .contenedorTotal .contenedorContacto .formContacto {
       display: flex;
       flex-direction: column;
@@ -550,33 +564,35 @@
       padding: 25px; }
       .contenedorTotal .contenedorContacto .formContacto label {
         text-align: initial;
-        margin: 5px; }
+        margin: 5px;
+        color: #260329; }
       .contenedorTotal .contenedorContacto .formContacto input {
         border: solid 1px #A5668B;
         background-color: rgba(243, 237, 238, 0.4);
         border-radius: 5px;
         width: 100%;
-        font-size: 15px;
+        font-size: 1rem;
         padding: 8px; }
       .contenedorTotal .contenedorContacto .formContacto .botonConsulta {
         width: 100%; }
         .contenedorTotal .contenedorContacto .formContacto .botonConsulta input {
           height: 100px;
-          width: 100%; }
+          width: 100%;
+          color: #260329; }
       .contenedorTotal .contenedorContacto .formContacto .botonEnviar {
-        width: 30%;
+        width: 150px;
         margin-top: 10px;
         border-radius: 10px; }
         .contenedorTotal .contenedorContacto .formContacto .botonEnviar input {
-          font-size: 1.3rem;
+          font-size: 1.1rem;
           background-color: #A5668B;
           color: #f7eff6;
-          letter-spacing: 0.2rem; }
+          letter-spacing: 0.1rem; }
           .contenedorTotal .contenedorContacto .formContacto .botonEnviar input:hover {
             background-color: #69306D;
             font-weight: bold; }
 
-/*-----index-----*/
+/*----- Header -----*/
 body {
   background-color: #f7eff6; }
 
@@ -588,23 +604,8 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
   color: #69306D;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   border-radius: 5px; }
-
-.navbar-toggler:focus {
-  box-shadow: 0 0 0 0rem; }
-
-.navbar-light .navbar-toggler {
-  border-color: #69306D; }
-
-.navbar-light .navbar-toggler-icon {
-  background-image: url(../imagenes/nav.puntos.png); }
-
-.navbar-toggler {
-  padding: 0.2rem 0.55rem; }
-
-.navbar-light .navbar-toggler:hover {
-  border: 2px solid #69306D; }
 
 .navbar-light .navbar-nav .nav-link:hover {
   background-color: #69306D;
@@ -612,13 +613,25 @@ body {
   border-radius: 5px;
   padding: 6px; }
 
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0rem; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../imagenes/nav.puntos.png); }
+
+.navbar-light .navbar-toggler {
+  border-color: #69306D; }
+
+.navbar-toggler {
+  padding: 0.2rem 0.55rem; }
+
 .navbar-collapse {
   text-align: center; }
 
 .fixed-top {
   background-color: #f7eff6;
   width: 100%;
-  box-shadow: 5px 5px 5px rgba(39, 3, 38, 0.1); }
+  box-shadow: 5px 5px 5px rgba(105, 48, 109, 0.4); }
 
 /*---------Footer----------*/
 .footer {
@@ -630,7 +643,7 @@ body {
   align-items: center; }
   .footer p {
     color: #F2D7EE;
-    font-size: 15px;
+    font-size: 0.8rem;
     margin: 5px; }
   .footer .redes {
     margin: 5px;
@@ -646,75 +659,91 @@ body {
 
 /*----------MEDIA QUERIES-----------*/
 /*Tamaño mediano*/
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   /*---------MEDIA QUERIES - Nosotros---------*/
-  .sectionArticle {
-    width: 90%; }
-  .sectionPasion h1 {
-    font-size: 1.8em; }
-  .articleHistoria h2 {
-    font-size: 1.5em; }
-  .articleHistoria p {
-    font-size: 0.7em; }
-  .articleClases h3 {
-    font-size: 1.3em; }
-  .articleClases p {
-    font-size: 0.7em; }
-  .estructura {
+  .mainNosotros .sectionPasion h1 {
+    font-size: 1.3rem; }
+  .mainNosotros .sectionArticle .articleHistoria {
+    margin: 15px; }
+    .mainNosotros .sectionArticle .articleHistoria h2 {
+      font-size: 1.1rem; }
+    .mainNosotros .sectionArticle .articleHistoria p {
+      font-size: 0.8rem; }
+  .mainNosotros .articleClases {
     width: 80%; }
-  .estructuraClase li {
-    font-size: 0.7em; }
-  .estructuraClase h4 {
-    font-size: 1em; }
+    .mainNosotros .articleClases h3 {
+      font-size: 1.3rem; }
+    .mainNosotros .articleClases p {
+      font-size: 0.8rem; }
+  .mainNosotros .estructura {
+    flex-direction: column-reverse;
+    align-items: center; }
+    .mainNosotros .estructura .estructuraClase {
+      width: 85%;
+      margin: 0 auto;
+      margin-bottom: 30px; }
+      .mainNosotros .estructura .estructuraClase h4 {
+        font-size: 1rem; }
+      .mainNosotros .estructura .estructuraClase li {
+        font-size: 0.8rem; }
+    .mainNosotros .estructura .imagenesNosotros {
+      width: 90%;
+      flex-direction: column;
+      align-items: center; }
+      .mainNosotros .estructura .imagenesNosotros img {
+        width: 100%;
+        margin: 10px; }
   /*---------MEDIA QUERIES - Main Index---------*/
-  .sectionDanza {
+  .mainIndex .sectionDanza {
     justify-content: center; }
-  .danzaModerna {
-    width: 80%;
-    margin-left: 0px;
-    background-color: rgba(242, 215, 238, 0.4);
-    padding: 15px; }
-  .danzaModerna h1 {
-    font-size: 1.5em; }
-  .danzaModerna p {
-    font-size: 0.8em; }
-  .danzaModerna h2 {
-    font-size: 1em; }
-  .carousel-control-prev {
-    left: 0px; }
-  .sectionPages {
+    .mainIndex .sectionDanza .danzaModerna {
+      width: 70%;
+      margin-left: 0px;
+      background-color: rgba(242, 215, 238, 0.6);
+      padding: 20px; }
+      .mainIndex .sectionDanza .danzaModerna h1 {
+        font-size: 1.8rem; }
+      .mainIndex .sectionDanza .danzaModerna h2 {
+        font-size: 1rem; }
+      .mainIndex .sectionDanza .danzaModerna p {
+        font-size: 1rem; }
+  .mainIndex .sectionPages {
     flex-direction: column;
     align-items: center; }
-  .nosotrosIndex {
-    width: 100%; }
-  .nosotrosIndex h2 {
-    font-size: 1.4em; }
-  .ritmosIndex h2 {
-    font-size: 1.4em; }
-  .ritmosIndex {
-    width: 100%; }
+    .mainIndex .sectionPages .nosotrosIndex {
+      width: 90%; }
+      .mainIndex .sectionPages .nosotrosIndex h3 {
+        font-size: 1.3rem; }
+    .mainIndex .sectionPages .ritmosIndex {
+      width: 90%; }
+      .mainIndex .sectionPages .ritmosIndex h3 {
+        font-size: 1.3rem; }
   /*---------MEDIA QUERIES - Galeria---------*/
-  .tituloGaleria h1 {
-    font-size: 30px; }
-  .container {
+  .mainGaleria .tituloGaleria h1 {
+    font-size: 1.3rem; }
+  .mainGaleria .containerr {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(6, 150px);
+    grid-template-rows: repeat(6, 140px);
     gap: 7px 7px;
     grid-template-areas: "galeria1 galeria2 galeria3"  "galeria4 galeria5 galeria6"  "galeria7 galeria8 galeria9"   "galeria10 galeria11 galeria12"  "video1 video1 video1"  "video2 video2 video2"; }
   /*---------MEDIA QUERIES - Ritmos---------*/
-  .tituloRitmos h1 {
-    font-size: 30px; }
-  .contRitmos {
-    flex-wrap: wrap; }
-  .conteRitmos {
-    flex-wrap: wrap; }
+  .mainRitmos .tituloRitmos h1 {
+    font-size: 1.3rem; }
   /*---------MEDIA QUERIES - Contacto---------*/
-  .contenedorContacto {
+  .contenedorTotal .tituloContacto h1 {
+    font-size: 1.3rem; }
+  .contenedorTotal .contenedorContacto {
     flex-direction: column; }
-  .formContacto {
-    align-items: center; }
-  .formContacto input {
-    text-align: center; } }
+    .contenedorTotal .contenedorContacto .textoContacto p {
+      font-size: 1rem; }
+    .contenedorTotal .contenedorContacto .formContacto {
+      width: 100%;
+      margin: auto;
+      align-items: center; }
+      .contenedorTotal .contenedorContacto .formContacto input {
+        text-align: center; }
+      .contenedorTotal .contenedorContacto .formContacto .botonEnviar input {
+        font-size: 1rem; } }
 
 /*----------MEDIA QUERIES-----------*/
 /*Tamaño chico*/
@@ -723,62 +752,105 @@ body {
   .logoHeader {
     width: 60px; }
   /*---------MEDIA QUERIES - Main Index---------*/
-  .danzaModerna {
-    width: 90%;
-    background-color: rgba(242, 215, 238, 0.4);
-    padding: 20px; }
-  .danzaModerna h2 {
-    font-size: 1em; }
-  .danzaModerna h1 {
-    font-size: 1.7em; }
-  .danzaModerna p {
-    font-size: 0.8em; }
-  .nosotrosIndex p {
-    font-size: 0.8em; }
-  .nosotrosIndex h2 {
-    font-size: 1.2em; }
-  .ritmosIndex h2 {
-    font-size: 1.2em; }
-  .ritmosIndex p {
-    font-size: 0.8em; }
-  .boton {
-    font-size: 0.8em; }
+  .mainIndex .sectionDanza .danzaModerna {
+    background-color: rgba(242, 215, 238, 0.6);
+    padding: 20px;
+    margin: 0 auto; }
+    .mainIndex .sectionDanza .danzaModerna h2 {
+      font-size: 1rem; }
+    .mainIndex .sectionDanza .danzaModerna h1 {
+      font-size: 1.3rem; }
+    .mainIndex .sectionDanza .danzaModerna p {
+      font-size: 0.8rem; }
+  .mainIndex .sectionPages {
+    width: 80%;
+    margin: 0 auto; }
+    .mainIndex .sectionPages .nosotrosIndex {
+      width: 100%; }
+      .mainIndex .sectionPages .nosotrosIndex h3 {
+        font-size: 1.3rem; }
+      .mainIndex .sectionPages .nosotrosIndex p {
+        font-size: 0.8rem; }
+      .mainIndex .sectionPages .nosotrosIndex .boton {
+        font-size: 0.8rem; }
+    .mainIndex .sectionPages .ritmosIndex {
+      width: 100%; }
+      .mainIndex .sectionPages .ritmosIndex h3 {
+        font-size: 1.3rem; }
+      .mainIndex .sectionPages .ritmosIndex p {
+        font-size: 0.8rem; }
+      .mainIndex .sectionPages .ritmosIndex .boton {
+        font-size: 0.8rem; }
   /*---------MEDIA QUERIES - Footer---------*/
   .footer {
     flex-direction: column-reverse; }
-  .redes {
-    margin: 0px; }
+    .footer .redes {
+      margin: 0px; }
   /*---------MEDIA QUERIES - Nosotros---------*/
-  .sectionArticle {
-    flex-direction: column; }
-  .sectionArticle img {
-    width: 100%; }
-  .articleHistoria h2 {
-    font-size: 1.3em; }
-  .estructura {
-    flex-direction: column-reverse;
-    align-items: center; }
-  .estructuraClase {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 30px; }
-  .imagenesNosotros {
-    width: 80%; }
-  .imagenesNosotros img {
-    width: 100%; }
-  .articleClases {
-    width: 80%; }
+  .mainNosotros {
+    margin-top: 95px; }
+    .mainNosotros .sectionPasion h1 {
+      font-size: 1.3rem; }
+    .mainNosotros .sectionArticle {
+      flex-direction: column; }
+      .mainNosotros .sectionArticle img {
+        width: 100%; }
+      .mainNosotros .sectionArticle .articleHistoria h2 {
+        font-size: 1.1rem; }
+      .mainNosotros .sectionArticle .articleHistoria p {
+        font-size: 0.8rem; }
+    .mainNosotros .articleClases {
+      width: 80%; }
+      .mainNosotros .articleClases h3 {
+        font-size: 1.1rem; }
+    .mainNosotros .estructura {
+      flex-direction: column-reverse;
+      align-items: center; }
+      .mainNosotros .estructura .estructuraClase {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px; }
+        .mainNosotros .estructura .estructuraClase h4 {
+          font-size: 1rem; }
+        .mainNosotros .estructura .estructuraClase li {
+          font-size: 0.8rem; }
+      .mainNosotros .estructura .imagenesNosotros {
+        width: 80%; }
+        .mainNosotros .estructura .imagenesNosotros img {
+          width: 100%; }
   /*---------MEDIA QUERIES - Ritmos---------*/
-  .tituloRitmos h1 {
-    font-size: 25px; }
-  .contenedorRitmos {
-    margin: 0 auto; }
+  .mainRitmos {
+    margin-top: 95px; }
+    .mainRitmos .tituloRitmos h1 {
+      font-size: 1.3rem; }
   /*---------MEDIA QUERIES - Galeria---------*/
-  .container {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(8, 125px);
-    gap: 7px 7px;
-    grid-template-areas: "galeria1 galeria2"  "galeria3 galeria4"  "galeria5 galeria6"  "galeria7 galeria8"   "galeria9 galeria10"  "galeria11 galeria12"  "video1 video1"  "video2 video2"; }
+  .mainGaleria {
+    margin-top: 95px; }
+    .mainGaleria .tituloGaleria h1 {
+      font-size: 1.3rem; }
+    .mainGaleria .containerr {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(8, 130px);
+      gap: 7px 7px;
+      grid-template-areas: "galeria1 galeria2"  "galeria3 galeria4"  "galeria5 galeria6"  "galeria7 galeria8"   "galeria9 galeria10"  "galeria11 galeria12"  "video1 video1"  "video2 video2"; }
   /*---------MEDIA QUERIES - Contacto---------*/
-  .contenedorContacto {
-    align-items: center; } }
+  .contenedorTotal {
+    margin-top: 95px; }
+    .contenedorTotal .tituloContacto h1 {
+      font-size: 1.3rem; }
+    .contenedorTotal .contenedorContacto {
+      align-items: center; }
+      .contenedorTotal .contenedorContacto .textoContacto p {
+        font-size: 0.8rem; }
+      .contenedorTotal .contenedorContacto .formContacto input {
+        font-size: 0.8rem; }
+      .contenedorTotal .contenedorContacto .formContacto label {
+        font-size: 0.8rem; }
+      .contenedorTotal .contenedorContacto .formContacto .botonConsulta {
+        font-size: 0.8rem; }
+        .contenedorTotal .contenedorContacto .formContacto .botonConsulta input {
+          font-size: 0.8rem; }
+      .contenedorTotal .contenedorContacto .formContacto .botonEnviar {
+        font-size: 0.8rem; }
+        .contenedorTotal .contenedorContacto .formContacto .botonEnviar input {
+          font-size: 0.8rem; } }

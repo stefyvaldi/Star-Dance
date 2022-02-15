@@ -18,13 +18,13 @@
     }
     .sectionArticle{
         display: flex;
-        width: 80%;
         background-color: rgba(165, 102, 139, 0.2);
         border-radius: 10px;
-        align-items: center;
-        margin: 35px;
+        width: 85%;
+        margin: 25px;
         img{
             width: 50%;
+            object-fit: cover;
             border-radius: 10px;
         }
         .articleHistoria{
@@ -42,7 +42,7 @@
     .articleClases{
         display: flex;
         flex-direction: column;
-        width: 60%;
+        width: 75%;
         align-items: center;
         h3{
             font-size: $minsubtitulos;
@@ -59,14 +59,14 @@
         display: flex;
         background-color: rgba(165, 102, 139, 0.2);
         border-radius: 10px;
-        width: 70%;
-        margin: 15px;
+        flex-direction: column-reverse;
+        margin: 45px;
         .estructuraClase{
-            margin: 30px;
-            width: 50%;
+            margin: 25px;
             h4{
                 color: #A5668B;
                 font-size: $minsubtitulos;
+                font-weight: bold;
             }
             li{
                 font-size: $textoparrafo;
@@ -76,11 +76,12 @@
             }
         }
         .imagenesNosotros{
-            margin: 20px;
-            width: 50%;
+            width: 100%;
+            display: flex;
+            padding-top: 20px;
+            justify-content: space-evenly;
             img{
-                width: 100%;
-                margin-top: 10px;
+                width: 45%;
                 border-radius: 10px;
             }
         }

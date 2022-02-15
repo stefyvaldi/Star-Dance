@@ -1,4 +1,4 @@
-/*-----index-----*/
+/*----- Header -----*/
 body{
     background-color: #f7eff6;
 }
@@ -10,23 +10,8 @@ body{
 }
 .navbar-light .navbar-nav .nav-link{
     color: #69306D;
-    font-size: 1.1em;
+    font-size: $textotitulo;
     border-radius: 5px;
-}
-.navbar-toggler:focus {
-    box-shadow: 0 0 0 0rem;
-}
-.navbar-light .navbar-toggler {
-    border-color: #69306D;
-}
-.navbar-light .navbar-toggler-icon {
-    background-image: url(../imagenes/nav.puntos.png);
-}
-.navbar-toggler {
-    padding: 0.2rem 0.55rem;
-}
-.navbar-light .navbar-toggler:hover{
-    border: 2px solid #69306D;
 }
 .navbar-light .navbar-nav .nav-link:hover {
     background-color: #69306D;
@@ -34,13 +19,25 @@ body{
     border-radius: 5px;
     padding: 6px;
 }
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../imagenes/nav.puntos.png);
+}
+.navbar-light .navbar-toggler{
+    border-color: #69306D;
+}
+.navbar-toggler {
+    padding: 0.2rem 0.55rem;
+}
 .navbar-collapse {
     text-align: center;
 }
 .fixed-top {
     background-color: #f7eff6;
     width: 100%;
-    box-shadow: 5px 5px 5px rgba(39, 3, 38, 0.1);
+    box-shadow: 5px 5px 5px rgba(105, 48, 109,0.4);
 }
 
 /*---------Footer----------*/
@@ -53,7 +50,7 @@ body{
     align-items: center;
     p{
         color: #F2D7EE;
-        font-size: 15px;
+        font-size: $textomin;
         margin: 5px;
     }
     .redes{
