@@ -18,14 +18,17 @@
     .contenedorContacto{
         width: 90vw;
         display: flex;
-        background-color: rgba(165, 102, 139, 0.2);
+        background-color: #f7eff6;
         margin: 30px;
         padding: 30px;
         border-radius: 10px;
-        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+        box-shadow: 4px 10px 20px 0px rgba(28, 2, 27, 0.5);
         .textoContacto{
             padding: 10px;
             width: 100%;
+            p{
+                color: #260329;
+            }
             .datos{
                 display: flex;
                 align-items: baseline;
@@ -44,7 +47,7 @@
             border-radius: 10px;
             margin: 15px;
             width: 90%;
-            box-shadow: 4px 10px 20px 0px rgba(28, 2, 27, 0.9) ;
+            box-shadow: 4px 10px 20px 0px rgba(28, 2, 27, 0.7) ;
             background-color: rgba(245, 225, 242, 0.8);
             padding: 25px;
             label{

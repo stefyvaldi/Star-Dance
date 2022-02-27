@@ -5,7 +5,6 @@
     align-items: center;
     margin: 0 auto;
     margin-top: 120px;
-
     .sectionPasion{
         width: 100%;
         background-color: #69306D;
@@ -31,10 +30,14 @@
             margin: 20px;
             display: flex;
             flex-direction: column;
+            justify-content: center;
             h2{
                 font-size: $maxsubtitulos;
                 color: #69306D;
                 font-weight: bold;
+            }
+            p{
+                color: #260329;
             }
         }
 
@@ -49,6 +52,9 @@
             font-weight: bold;
             color: #69306D;
         }
+        p{
+            color: #260329;
+        }
         img{
             width: 100%;
             margin: 10px;
@@ -62,7 +68,7 @@
         flex-direction: column-reverse;
         margin: 45px;
         .estructuraClase{
-            margin: 25px;
+            margin: 44px;
             h4{
                 color: #A5668B;
                 font-size: $minsubtitulos;
@@ -70,9 +76,11 @@
             }
             li{
                 font-size: $textoparrafo;
+                color: #260329;
             }
             span{
                 font-weight: bold;
+                color: #260329;
             }
         }
         .imagenesNosotros{

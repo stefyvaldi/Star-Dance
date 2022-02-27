@@ -20,4 +20,5 @@ En todas las paginas: logo de baile
 - Nosotros: chicas bailando, grupo de chicas bailando, chica haciendo elongacion, chicas haciendo estiramiento
 
 4.- Todas mis paginas tienen h1 y en algunas tienen h2, h3 y h4.
+  - En el Index cambie algunos h2 que tenia demás por h3
   - Modifique en la pagina ritmos mis h2(ya que tenia varios) por h3.

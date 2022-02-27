@@ -53,14 +53,15 @@
             }
         }
     }
-    /*---------MEDIA QUERIES - Main Index---------*/
+ /*---------MEDIA QUERIES - Main Index---------*/
     .mainIndex{
         .sectionDanza{
             justify-content: center;
             .danzaModerna{
-                width: 70%;
+                width: 80%;
                 margin-left: 0px;
-                background-color: rgba(242, 215, 238, 0.6);
+                background-color: rgba(247, 239, 246, 0.5);
+                box-shadow: 4px 10px 20px 0px rgba(28, 2, 27, 0.4);
                 padding: 20px;
                 h1{
                     font-size: $maxsubtitulos;
@@ -90,7 +91,7 @@
             }
         }
     }
-    /*---------MEDIA QUERIES - Galeria---------*/
+/*---------MEDIA QUERIES - Galeria---------*/
     .mainGaleria{
         .tituloGaleria{
             h1{
@@ -99,7 +100,7 @@
         }
         .containerr{
             grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: repeat(6,140px);
+            grid-template-rows: repeat(8,140px);
             gap: 7px 7px;
             grid-template-areas:
     
@@ -112,11 +113,15 @@
             "galeria10 galeria11 galeria12"
     
             "video1 video1 video1"
+            
+            "video1 video1 video1"
     
+            "video2 video2 video2"
+
             "video2 video2 video2";
         } 
     }
-    /*---------MEDIA QUERIES - Ritmos---------*/
+/*---------MEDIA QUERIES - Ritmos---------*/
     .mainRitmos{
         .tituloRitmos{
             h1{
@@ -124,8 +129,7 @@
             }
         }
     }
-    
-    /*---------MEDIA QUERIES - Contacto---------*/
+/*---------MEDIA QUERIES - Contacto---------*/
     .contenedorTotal{
         .tituloContacto{
             h1{
@@ -167,7 +171,6 @@
     .mainIndex{
         .sectionDanza{
             .danzaModerna{
-                background-color: rgba(242, 215, 238, 0.6);
                 padding: 20px;
                 margin: 0 auto;
                 h2{
